@@ -1,20 +1,27 @@
 <template>
-  <div class="hello">
-      hello
-  </div>
+    <div id='index'>
+      <Header />
+    </div>
 </template>
-
 <script>
-import { flowStatistics } from '../api/index'
+import Header from '../components/header'
+// Header
 export default {
-  name: 'HelloWorld',
-  methods: {
-  },
-  created() {
-    console.log(flowStatistics());
-  }
+    name: 'index',
+    components:{
+      Header
+    },
+    data() {
+      return {
+      };
+    },
+    methods: {
+    }
+
 }
 </script>
-
-<style>
+<style lang="scss">
 </style>
+
+
+
