@@ -1,4 +1,4 @@
-# bookstore
+# class-manage
 
 ## Project setup
 ```
